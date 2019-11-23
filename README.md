@@ -47,5 +47,5 @@ HOMEDIR/whatever-2 -> HOMEDIR/BLA/whatever-2
 
 ## Sources
 
-https://github.com/google/fscrypt
-https://www.kernel.org/doc/html/v4.18/filesystems/fscrypt.html
+ - https://github.com/google/fscrypt
+ - https://www.kernel.org/doc/html/v4.18/filesystems/fscrypt.html
