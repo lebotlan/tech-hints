@@ -54,8 +54,6 @@ Do not forget to encrypt sensitive information: may be your .ssh dir, .gnupg, .m
 
 ### Trouble
 
-=====================================================================================================================
-
 In case of "bad PAM configuration", look at this:
   http://tlbdk.github.io/ubuntu/2018/10/22/fscrypt.html
 
@@ -76,4 +74,4 @@ sudo pam-auth-update
 
 Now log out of the session and in again to load the new pam files.
 
-=====================================================================================================================
+
