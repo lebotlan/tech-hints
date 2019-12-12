@@ -2,7 +2,7 @@
 
 ## Steps to encrypt a directory in linux.
 
-### Install packages
+### 1 - Install packages
 `sudo apt-get install libpam-fscrypt`
 
 These are probably already done by the package:
@@ -11,7 +11,7 @@ sudo pam-auth-update
 sudo fscrypt setup
 ```
 
-### Prepare device and parent directories for encryption
+### 2 - Prepare device and parent directories for encryption
 ```
 sudo tune2fs -O encrypt /dev/device
 fscrypt status
@@ -23,6 +23,7 @@ fscrypt status
 
 I don't know if you need to fscrypt setup all the parent dirs.
 
+### 3 - Encrypt a file or a directory
 `fscrypt encrypt file-or-dir`
 
 Beware, it creates a new 'policy' for each new encrypted dir (and asks for a password). 
