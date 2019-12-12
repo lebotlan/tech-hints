@@ -1,0 +1,11 @@
+
+Re-associates a process with a new terminal.
+
+
+```
+Use reptyr PID
+
+or reptyr -T PID
+```
+
+It might require special rights. `man reptyr`
