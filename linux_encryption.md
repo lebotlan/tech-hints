@@ -61,12 +61,14 @@ Set up PAM :
 
 Create the file /usr/share/pam-configs/keyinit-fix (need sudo rights) and fill with the following
 
+```
 Name: keyinit fix
 Default: yes
 Priority: 0
 Session-Type: Additional
 Session:
 	optional	pam_keyinit.so force revoke
+```
 
 Next re-configure pam to use fscrypt
 
