@@ -18,10 +18,10 @@ fscrypt status
 
 sudo fscrypt setup /
 sudo fscrypt setup /home
+# As far as I understand, you only need to setup mounted directories.
+
 fscrypt status
 ```
-
-I don't know if you need to fscrypt setup all the parent dirs.
 
 ### 3 - Encrypt a file or a directory
 `fscrypt encrypt file-or-dir`
@@ -44,6 +44,16 @@ HOMEDIR/whatever-2 -> HOMEDIR/BLA/whatever-2
 
 Do not forget to encrypt sensitive information: may be your .ssh dir, .gnupg, .mozilla (it contains your passwords), .thunderbird (it contains your mailboxes).
 
+## Unlock your files/directories (how to access your files)
+
+```
+fscrypt unlock my-file-or-dir
+```
+
+It asks for your passphrase and confirms that your file is unlocked.
+
+In order to automatically unlock your files at login, see below.
+
 
 ## Sources
 
@@ -57,7 +67,8 @@ Do not forget to encrypt sensitive information: may be your .ssh dir, .gnupg, .m
 In case of "bad PAM configuration", look at this:
   http://tlbdk.github.io/ubuntu/2018/10/22/fscrypt.html
 
-Set up PAM :
+
+### Set up PAM, so that your login password unlocks your encrypted directories.
 
 Create the file /usr/share/pam-configs/keyinit-fix (need sudo rights) and fill with the following
 
