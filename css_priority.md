@@ -14,10 +14,13 @@ CSS is poorly designed. It is unmodular, it lacks composition operators. Its spe
 
 ## Priorities: an easy fix.
 - On every html document, I add an identifier `h` on the root html node.
-- Then, in order to increase a selector priority, I prefix it with one or several #h.
+- Then, in order to increase a selector priority, I prefix it with one or several `#h`.
 
+`#h#h span.verybigwarn`
 
-Of course, it is a poor fix. A better way to do this would be to define a set of named priority levels, along with a partial order on these names. (this would be modular)
+Of course, it is a poor fix. A better way to do this would be to define a set of named priority levels, along with a partial order on these names (this would be indeed modular).
+
+Reference : [https://www.w3.org/TR/2018/REC-selectors-3-20181106/#specificity]
 
 
 
