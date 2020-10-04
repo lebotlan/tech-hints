@@ -2,8 +2,9 @@
 # Mitigate CSS lack of priorities.
 
 CSS is poorly designed. It is unmodular, it lacks composition operators. Its specification of z-index ordering is a joke...
+(Yes, I am really angry after CSS spec.)
 
-And it lacks priorities on rules. 
+...And it lacks priorities on rules. 
 
 ## Priorities: the problem with current CSS spec.
 
