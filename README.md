@@ -10,7 +10,7 @@ Unordered list of miscellaneous technical hints (will be enriched from time to t
 
 ## Window Manager
 
-- [Command-line to operate on windows (interaction with the window manager)](wm_command_line_operations.md)
+- [Command-line to operate on linux desktop windows (interaction with the linux window manager)](wm_command_line_operations.md)
 
 ## HTML, CSS
 
