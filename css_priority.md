@@ -1,8 +1,9 @@
 
 # Mitigate CSS lack of priorities.
 
-CSS is poorly designed. It is unmodular, it lacks composition operators. Its specification of z-index ordering is a joke...
-(Yes, I am really angry after CSS spec.)
+CSS is poorly designed. It is unmodular, it lacks composition operators. Its specification of z-index ordering is a joke.
+CSS is unable to position elements using smart anchors, like in Tikz.
+(Yes, I am really angry after the CSS spec.)
 
 ...And it lacks priorities on rules. 
 
