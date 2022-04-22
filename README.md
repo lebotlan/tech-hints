@@ -8,6 +8,8 @@ Unordered list of miscellaneous technical hints (will be enriched from time to t
 - [Bash virtual files: redirect the output of a command to a fresh temporary file in one command](bash_virtual_file.md)
 - Did you know that a .bashrc init file is supposed to [remain silent](https://stackoverflow.com/questions/12440287/scp-doesnt-work-when-echo-in-bashrc) ?
 - [dwdiff: colored diff at the word level, you may specify the delimiters](https://linux.die.net/man/1/dwdiff) (apparently better than wdiff)
+- [pv: pipe viewer, to debug pipe traffic](https://catonmat.net/unix-utilities-pipe-viewer)
+- 'truncate -s 4G dummy' creates a big dummy file. (truncate does not only truncate).
 
 ## Window Manager
 
