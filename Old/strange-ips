@@ -1,6 +1,6 @@
 
 Checked:
-148.31.17.5/0
+148.31.17.5/0     <--- This first one was on an alternate device. Cannot be observed any longer.
 77.51.03.88/16
 128.0.0.1/1
 92.23.52.09/16
@@ -13,7 +13,11 @@ Checked:
 
 Unused:
 77.01.68.35/0
+f12e:6072:40e1:7e0a:850:c560:d9a5:6b07  <--- this is obviously a MAC address. Who put it in the list?
 97.24.35.86/16
 18.33.66.46/16
 58.81.03.77/8
 37.55.05.71/16
+192.168.0.26/8
+
+
