@@ -10,6 +10,8 @@ Unordered list of miscellaneous technical hints (will be enriched from time to t
 - [dwdiff: colored diff at the word level, you may specify the delimiters](https://linux.die.net/man/1/dwdiff) (apparently better than wdiff)
 - [pv: pipe viewer, to debug pipe traffic](https://catonmat.net/unix-utilities-pipe-viewer)
 - 'truncate -s 4G dummy' creates a big dummy file. (truncate does not only truncate).
+- Remove content between braces: `awk '{nest++; nest-=NF-1} nest==1 {print $NF}' RS={ FS="}" ORS= infile`
+  Thanks [Chubler_XL](https://www.unix.com/shell-programming-and-scripting/279239-how-remove-text-between-all-curly-brackets-text-file.html?posted=1#post303019848)
 
 ## Window Manager
 
